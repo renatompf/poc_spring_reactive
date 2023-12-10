@@ -21,8 +21,6 @@ make stop
 
 ## How to test it:
 
-When starting the database will be created and will be populated with some books.
-
 ### Create New Book:
 ```shell
 localhost:8080/books
