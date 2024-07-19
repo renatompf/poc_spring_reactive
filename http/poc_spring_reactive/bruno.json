@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "poc_spring_reactive",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

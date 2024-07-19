@@ -1,0 +1,15 @@
+meta {
+  name: find By Title
+  type: http
+  seq: 5
+}
+
+get {
+  url: localhost:8080/books/title?title=JavaScript: The Good Parts
+  body: none
+  auth: none
+}
+
+params:query {
+  title: JavaScript: The Good Parts
+}

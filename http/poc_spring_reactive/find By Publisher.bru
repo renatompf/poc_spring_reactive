@@ -1,0 +1,15 @@
+meta {
+  name: find By Publisher
+  type: http
+  seq: 4
+}
+
+get {
+  url: localhost:8080/books/publisher?name=OReilly Media
+  body: none
+  auth: none
+}
+
+params:query {
+  name: OReilly Media
+}

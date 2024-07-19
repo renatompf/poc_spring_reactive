@@ -1,0 +1,15 @@
+meta {
+  name: find By Title Containing
+  type: http
+  seq: 6
+}
+
+get {
+  url: localhost:8080/books/contains?content=java
+  body: none
+  auth: none
+}
+
+params:query {
+  content: java
+}
